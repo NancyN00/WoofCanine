@@ -4,6 +4,6 @@ import com.example.woofcanine.model.Message
 
 data class ResourceState(
     val isLoading: Boolean = false,
-    val characters: List<Message> = emptyList(),
+    val dogs: List<Message> = emptyList(),
     val message: String = ""
 )

@@ -17,6 +17,5 @@ object DogsClient {
 
     val dogService : DogsService = retrofit.create(DogsService::class.java)
 
-    //val postService: PostService = retrofit.create(PostService::class.java)
 
 }
